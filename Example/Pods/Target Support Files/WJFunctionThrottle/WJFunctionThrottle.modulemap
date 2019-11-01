@@ -1,0 +1,6 @@
+framework module WJFunctionThrottle {
+  umbrella header "WJFunctionThrottle-umbrella.h"
+
+  export *
+  module * { export * }
+}

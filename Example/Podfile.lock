@@ -1,0 +1,16 @@
+PODS:
+  - WJFunctionThrottle (1.0.0)
+
+DEPENDENCIES:
+  - WJFunctionThrottle (from `../`)
+
+EXTERNAL SOURCES:
+  WJFunctionThrottle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJFunctionThrottle: 39f81ddb369af31cef72fb31e873d7444d6a2182
+
+PODFILE CHECKSUM: 64354181f6f7703f38b3d4bc6b50af55e9d85a16
+
+COCOAPODS: 1.8.4

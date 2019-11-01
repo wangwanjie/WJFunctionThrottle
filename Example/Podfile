@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WJFunctionThrottle_Example' do
+  pod 'WJFunctionThrottle', :path => '../'
+
+  target 'WJFunctionThrottle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
