@@ -14,6 +14,26 @@ A lightweight Objective-C function throttle and debounce library.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Use
+
+```ObjC
+if (text && text.length > 0) {
+        [WJFunctionThrottle throttleWithInterval:0.5
+                                             key:@"key"
+                                         handler:^{
+                                             NSLog(@"text changed, search for keyword：%@", textfield.text);
+                                         }];
+    } else {
+        [WJFunctionThrottle throttleCancelWithKey:@"key"];
+    }
+    
+ [WJFunctionThrottle throttleWithInterval:0.1
+                                        type:WJFunctionThrottleTypeInvokeOnceInEachInterval
+                                     handler:^{
+                                         [self handerScrollViewDidScrollWithThrollteOffset:scrollView.contentOffset];
+                                     }];
+```
+
 ## Requirements
 
 iOS 8 or above.
